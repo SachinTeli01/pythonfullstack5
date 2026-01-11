@@ -7,6 +7,7 @@ print("Item Prices:", item_prices)
 print("Total Order Value: ", total_order_value)
 print("Average Item Price: ", average_price)
 
+
 #Product Category Tracker 2
 from typing import ValuesView
 products={
@@ -36,6 +37,7 @@ if purchase_amount>0:
   print("valid")
 else:
   print("invalid",)
+    
 
 # Inventory Stock Comparison 5
 opening_stock=[200,156,55,399]
@@ -47,6 +49,8 @@ for i in range(len(opening_stock)):
     print(f"product{i+1}: stock decreased")
   else:
     print(f"product{i+1}: stock remained same")
+
+
 
 # Student Course Mapping 6
 Student_Courses={
@@ -66,6 +70,7 @@ if student_name in Student_Courses:
 else:
   print(f"\n{student_name} is not enrolled in any courses")
 
+
 #Delivery Distance Category 7
 delivery_distance=int(input(" delivery distance in km:"))
 if delivery_distance<=5:
@@ -74,6 +79,7 @@ elif delivery_distance>=6-20 and delivery_distance==20:
   print("Outstation")
 else:
   print("City")
+    
 
 #Online Exam Score Analyzer 8
 student_scores=[50,88.5,98,63.23]
@@ -87,6 +93,7 @@ for score in student_scores:
     count_of_scores_above_average+=1
 print("Number of scores above average:", count_of_scores_above_average)
 
+
 #Online Exam Score Analyzer 8
 student_scores=[50,88.5,98,63.23]
 total_score=sum(student_scores)
@@ -98,6 +105,7 @@ for score in student_scores:
   if score >= average_score:
     count_of_scores_above_average+=1
 print("Number of scores above average:", count_of_scores_above_average)
+
 
 #product price lock system 9
 fixed_product_price= (55,99,199,89,299)

@@ -112,11 +112,6 @@ fixed_product_price= (55,99,199,89,299)
 print(fixed_product_price[0])
 fixed_product_price[1]=54
 
-#product price lock system 9
-fixed_product_price= (55,99,199,89,299)
-print(fixed_product_price[0])
-fixed_product_price[1]=54
-
 #Feedback Count Dashboard 10
 feedbacks={
     "Positive":45,
